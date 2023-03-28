@@ -1,4 +1,5 @@
 import React from "react";
+import BlogCards from "./BlogsCards";
 import Cards from "./Cards";
 import './css/Body.scss';
 
@@ -12,8 +13,7 @@ export default function Body(){
 
             <div className="blogContainer">
                 <h2>BLOG</h2>
-                <div className="backContainer"></div>
-                
+                <BlogCards/>
             </div>
 
         </div>

@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Artículo de elefante",
+        "description": "Un mamífero placentarios del orden Proboscidea",
+        "time": "3hr",
+        "category": "Nature",
+        "img": "https://i.pinimg.com/originals/63/77/b3/6377b3130614607549a1349fe2b16053.png"
+    },
+    {
+        "title": "Artículo de camino",
+        "description": "vías que se construyen para permitir el desplazamiento de hombres y vehículos",
+        "time": "4hr",
+        "category": "Aventura",
+        "img": "https://i.pinimg.com/originals/ab/79/8f/ab798f7b86e442e316d9a1d14855b308.png"
+    },
+    {
+        "title": "Artículo de loro",
+        "description": "Se caracterizan por tener un pico curvado, con una mandíbula inferior con cierta movilidad en su conexión con el cráneo",
+        "time": "4hr",
+        "category": "Nature",
+        "img": "https://i.pinimg.com/originals/0d/5c/a0/0d5ca09a707c363bf6c394eccf698d1a.png"
+    }
+]

@@ -1,16 +1,21 @@
 import Card from 'react-bootstrap/Card';
 import React from 'react';
+import clock from '../Assets/iconos/time.png';
+import './css/SmallCards.scss'
 
 function ImageAndTextExample({title, description, time, category, img}) {
   return (
     <>
-      <Card>
+      <Card className='smallBlogCard'>
         <Card.Img variant="top" src={img}/>
         <Card.Body>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
+            <Card.Title>{title}</Card.Title>
+            <div>
+                <img src={clock} alt="clock"/>
+                <Card.Text>
+                    Hace: {time}
+                </Card.Text>
+            </div>
         </Card.Body>
       </Card>
     </>
