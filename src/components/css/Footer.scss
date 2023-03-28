@@ -1,0 +1,28 @@
+.backGround{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3%;
+    align-items: center;
+
+    .logo{
+        width: 100px;
+        padding: 3%;
+        padding-bottom: 1%;
+    }
+
+    .redes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 50px;
+        padding: 3%;
+        padding-bottom: 1%;
+        margin-right: 4%;
+        img{
+            margin: 10px;
+        }
+    }
+
+}

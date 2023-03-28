@@ -11,7 +11,7 @@
             padding-bottom: 0px;
             margin-bottom: 0px;
             font-family: 'Montserrat', sans-serif;
-            font-size: 2vw;
+            font-size: 2rem;
             font-weight: 700;
         }
     }
@@ -26,8 +26,26 @@
             padding-bottom: 0px;
             margin-bottom: 0px;
             font-family: 'Montserrat', sans-serif;
-            font-size: 2vw;
+            font-size: 2rem;
             font-weight: 700;
         }
     }
+}
+
+@media (max-width: 600px) {
+    .bodyContainer{
+
+    .tendenciasContainer{
+        h2{
+            font-size: 1.5rem;
+            margin-left: 3%;
+        }
+    }
+    .blogContainer{
+        h2{
+            font-size: 1.5rem;
+            margin-left: 3%;
+        }
+    }
+}
 }
