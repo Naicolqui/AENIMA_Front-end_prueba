@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Montañas y magia",
+        "description": "Aquí la descripción para",
+        "new": true,
+        "img": "../Assets/img/card_01.png"
+    },
+    {
+        "title": "Playas y sol",
+        "description": "La descripción de.debe ser esta",
+        "new": false,
+        "img": "../Assets/img/card_02.png"
+    },
+    {
+        "title": "Nieve y aventura",
+        "description": "Contiene la información de",
+        "new": false,
+        "img": "../Assets/img/card_03.png"
+    }
+]
