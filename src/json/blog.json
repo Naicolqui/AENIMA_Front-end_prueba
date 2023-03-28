@@ -3,7 +3,7 @@
         "title": "Artículo de puente",
         "description": "Un puente es una construcción que permite salvar un accidente geográfico",
         "time": "2m",
-        "category": "Ciudad",
+        "category": "CUIDAD",
         "img": "https://i.pinimg.com/originals/30/a1/01/30a101c162ebea57b99b685d391bf60a.png"
     },
  
@@ -11,7 +11,7 @@
         "title": "Artículo de bosque",
         "description": "Lugar poblado de árboles y arbustos. Área con una importante densidad de vegetación.",
         "time": "15m",
-        "category": "Aventura",
+        "category": "AVENTURA",
         "img": "https://i.pinimg.com/originals/dc/1a/e3/dc1ae35ebbcf0d47beab1a62c9365e40.png"
     }
 ]

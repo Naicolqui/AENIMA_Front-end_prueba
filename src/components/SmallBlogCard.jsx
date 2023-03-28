@@ -8,11 +8,11 @@ function ImageAndTextExample({title, description, time, category, img}) {
     <>
       <Card className='smallBlogCard'>
         <Card.Img variant="top" src={img}/>
-        <Card.Body>
-            <Card.Title>{title}</Card.Title>
-            <div>
+        <Card.Body className="bodyCont">
+            <Card.Title className='titleCont'>{title}</Card.Title>
+            <div className='timeCont'>
                 <img src={clock} alt="clock"/>
-                <Card.Text>
+                <Card.Text className='timeText'>
                     Hace: {time}
                 </Card.Text>
             </div>

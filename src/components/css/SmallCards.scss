@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .smallBlogCard{
     width: 90%;
+    border-style: none;
+
+    .bodyCont{
+        width: 100%;
+        .titleCont{
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2rem;
+            text-align: left;
+        }
+        .timeCont{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: left;
+            align-items: center;
+
+            img{
+                padding-right: 2px;
+            }
+
+            .timeText{
+                font-family: 'Montserrat', sans-serif;
+                color: #CBD0D3;
+                font-size: 0.8rem;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .smallBlogCard{display: none;}
 }

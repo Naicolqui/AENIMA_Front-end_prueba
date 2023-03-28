@@ -10,5 +10,21 @@
     }
     .bigCards{
         width: 68%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .blogCardContainter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3%;
+        width: 90%;
+
+        .bigCards{
+            width: 100%;
+        }
     }
 }
