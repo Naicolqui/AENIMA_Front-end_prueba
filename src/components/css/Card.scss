@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.cardContainer{
+    margin: 5%;
+    width: 100% !important;
+    .bodyCard{
+        width: 100%;
+        .new{
+            position: absolute;
+            left: 5%;
+            bottom: 35%;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #FA6980;
+            color: white;
+            border-radius: 5%;
+            padding: 3%;
+            font-size: 1vw;
+        }
+
+        .titleCard{
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            font-size: 1.5vw;
+            font-weight: 600;
+            padding-top: 10%;
+            text-align: left;
+            padding-left: 5%;
+        }
+        .textContainer{
+            display: flex;
+            flex-direction: row;
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            font-size: 0.8vw;
+            font-weight: 400;
+            text-align: left;
+            padding-left: 5%;
+
+            .titleBold{  
+                font-weight: 700;
+                margin-right: 3px;
+            }
+
+            .description{
+                margin-right: 3px;
+            }
+        }
+    }
+
+
+
+}

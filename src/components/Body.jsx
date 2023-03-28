@@ -1,15 +1,20 @@
-import { render } from "@testing-library/react";
-import React, { useEffect, useState } from "react";
+import React from "react";
+import Cards from "./Cards";
+import './css/Body.scss';
 
 export default function Body(){
-    const [cards, setCards] = useState([]);
-    useEffect(()=>{
-        fetch("../json/cardsInfo.json").then(r=> r.json())
-        .then(data => setCards(data))
-    },[])
-    console.log("data: ", cards);
-    render(
-        <div>
+    return(
+        <div className="bodyContainer">
+            <div className="tendenciasContainer">
+                <h2>TENDENCIAS</h2>
+                <Cards/>
+            </div>
+
+            <div className="blogContainer">
+                <h2>BLOG</h2>
+                <div className="backContainer"></div>
+                
+            </div>
 
         </div>
     )
